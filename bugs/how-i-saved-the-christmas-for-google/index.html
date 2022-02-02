@@ -82,7 +82,7 @@ How it started?
 What the hell is Dependency Confusion?
 <a href=#what-the-hell-is-dependency-confusion class=h-anchor aria-hidden=true>#</a>
 </h2>
-<p>So let me not waste the times for anyone and explain it so easily that it would be understood by even beginner also. You would be familiar when we install the packages for computer using the terminal.
+<p>So let me not waste the times for anyone and explain it so easily that it would be understood by even beginner also. Dependency Confusison is a attack by which an attacker is able to perform Remote Code Execution in a server by providing a package of same name with higher version with that used by a server, which makes server attracted towards higher version pipeline. You would be familiar when we install the packages for computer using the terminal.
 There are different types of packages having different framework like</p>
 <h4 id=1-python>
 1) Python
@@ -94,6 +94,7 @@ There are different types of packages having different framework like</p>
 <a href=#2-node class=h-anchor aria-hidden=true>#</a>
 </h4>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>npm install &lt;package name&gt;
+npm owner add &lt;user&gt; &lt;package name&gt;
 </code></pre></div><h4 id=3-ruby-gems>
 3) Ruby Gems
 <a href=#3-ruby-gems class=h-anchor aria-hidden=true>#</a>
@@ -153,7 +154,7 @@ setup(
 Npm
 <a href=#npm class=h-anchor aria-hidden=true>#</a>
 </h3>
-<p>Similarly in Node Js there is a platform name <code>npm</code> which allows the user to upload open source packages.</p>
+<p>Similarly in Node Js there is a platform name <a href=https://www.npmjs.com/><strong>Npm</strong></a> which allows the user to upload open source packages.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=color:#75715e>// module.exports exports the function getContests as a promise and exposes it as a module.
 </span><span style=color:#75715e>// we can import an exported module by using require().
 </span><span style=color:#75715e></span><span style=color:#a6e22e>module</span>.<span style=color:#a6e22e>exports</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>async</span> <span style=color:#66d9ef>function</span> <span style=color:#a6e22e>getContests</span>() {
@@ -261,6 +262,7 @@ Why it is considered as a Deep Gold Mine?
 <a href=#why-it-is-considered-as-a-deep-gold-mine class=h-anchor aria-hidden=true>#</a>
 </h2>
 <p>Yeah by this , everyone will believe that it is a gold mine and look for same type of bugs. But there&rsquo;s a catch, The way you recon means a lot. If your recon is weak then you would never be able to find this in the near time. Your recon should be accessible to all the endpoints withing the program and as well as using third party platforms - Github, Shodan , Google Dorks etc. The attack Dependency Confusion is still not very overrated but I want to disclose as this was a bit that I got from the community and here is what I returned.</p>
+<img src=https://64.media.tumblr.com/a76def644cc0b31881be79547604ee33/2c3aa8307bc296b3-e1/s540x810/4dedfb1c6a23bf52ae91154e79971567718ffbc4.png alt="Hello Friend" class=center style=border-radius:8px>
 <h2 id=timeline>
 Timeline:
 <a href=#timeline class=h-anchor aria-hidden=true>#</a>
