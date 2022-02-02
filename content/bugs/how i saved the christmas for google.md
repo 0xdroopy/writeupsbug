@@ -2,7 +2,7 @@
 title = "How I Saved Christmas for Google 🎄"
 date = "2021-12-25"
 author = "0xdroopy"
-
+theme = "hugo-theme-hello-friend"
 
 +++
 
